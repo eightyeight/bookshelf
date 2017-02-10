@@ -1,0 +1,37 @@
+.app-container {
+	margin-top: 50px;
+	display:none;
+}
+
+.book {
+	&__author {
+		font-size: 21px;
+		font-style: italic;
+		color: #888;
+	}
+	&__title {
+		font-size: 30px;
+		margin: 0 10px;
+	}
+	&__icon {
+		color: #888;
+		cursor: pointer;
+		&:hover {
+			color: #000;
+		}
+	}
+	&__alert {
+		display: none;
+		margin-top: 25px;
+		opacity: 0;
+		transition: .5s;
+	}
+	&__template {
+		display: none;
+	}
+}
+
+label.book__field-alert {
+	color: #a94442;
+	margin-top: 5px;
+}
